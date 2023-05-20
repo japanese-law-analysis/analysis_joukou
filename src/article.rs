@@ -81,8 +81,3 @@ impl Article {
     }
   }
 }
-
-pub fn string_to_article(text: &str) -> Article {
-  let lst = text.split('第');
-  todo!()
-}
